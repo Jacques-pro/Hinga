@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <h1 className='home'>AgLife</h1>
       <h2>This is where your journey starts</h2>
+     
     </>
   );
 }

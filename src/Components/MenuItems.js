@@ -19,5 +19,6 @@ export const MenuItems = [
       title: 'Ready to take action',
       path: '/development',
       cName: 'dropdown-link'
-    }
+    },
+   
   ];
