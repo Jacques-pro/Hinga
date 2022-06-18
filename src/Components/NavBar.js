@@ -3,6 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
+import image from './images/log.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -31,7 +32,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          AgLife <img src={'../../public/log.png'} alt='logo'width="10" height="5"/>
+          AgLife <img src={image} alt='logo'width="50" height="50"/>
           <i class='fab fa-firstdraft' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -42,7 +43,7 @@ function Navbar() {
 
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home  <img src={'../../public/log.png'} alt='logo'width={"100%"} height={"100%"}/>
+              Home 
             </Link>
           </li>
 
